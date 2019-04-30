@@ -11,9 +11,10 @@ import Foundation
 class StarController {
     private(set) var stars: [Star] = []
     
-    
     func addStar(named name: String, withDistance distance: Double) {
         //create a star
         //add a star to the list
+        let star = Star(name: name, distance: distance)
+        stars.append(star)
     }
 }
