@@ -20,13 +20,20 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        listStars()
         // Do any additional setup after loading the view.
+    }
+    
+    private func clearTextFields() {
+        starTextField.text = ""
+        distanceTextField.text = ""
     }
 
     @IBAction func addButtonPressed(_ sender: Any) {
         guard let name = starTextField.text, let distanceString = distanceTextField.text, let distance = Double(distanceString) else {return}
         starController.addStar(named: name, withDistance: distance)
         listStars()
+        clearTextFields()
     }
     
     //list all of the stars we're tracking
