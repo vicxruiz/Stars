@@ -26,6 +26,7 @@
 		5713655A2278ACF100F0F88D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		571365602278B45400F0F88D /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
 		571365622278B4E900F0F88D /* StarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarController.swift; sourceTree = "<group>"; };
+		571365642278BD6400F0F88D /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +67,7 @@
 				5713655A2278ACF100F0F88D /* Info.plist */,
 				571365602278B45400F0F88D /* Star.swift */,
 				571365622278B4E900F0F88D /* StarController.swift */,
+				571365642278BD6400F0F88D /* MyPlayground.playground */,
 			);
 			path = Stars;
 			sourceTree = "<group>";

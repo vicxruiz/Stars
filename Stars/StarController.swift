@@ -17,4 +17,14 @@ class StarController {
         let star = Star(name: name, distance: distance)
         stars.append(star)
     }
+    
+    
+    
+    func saveToPersistentStore() {
+        
+    }
+    
+    func loadFromPersistentStore() {
+        
+    }
 }

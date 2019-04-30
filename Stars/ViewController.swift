@@ -26,11 +26,20 @@ class ViewController: UIViewController {
     @IBAction func addButtonPressed(_ sender: Any) {
         guard let name = starTextField.text, let distanceString = distanceTextField.text, let distance = Double(distanceString) else {return}
         starController.addStar(named: name, withDistance: distance)
+        listStars()
     }
     
     //list all of the stars we're tracking
     
-    
+    func listStars() {
+        var output = ""
+        
+        for star in starController.stars {
+            output += "\(star.name) is \(star.distance) light years away.\n"
+        }
+        
+        textView.text = output
+    }
     
 }
 
